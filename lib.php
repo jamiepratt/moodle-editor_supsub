@@ -32,7 +32,7 @@ defined('MOODLE_INTERNAL') || die();
 
 class supsub_texteditor extends texteditor {
     /** @var string active version of tinyMCE used - directory name */
-    public $version = '3.4.5';
+    public $version = '3.4.6';
 
     public function supported_by_browser() {
         if (check_browser_version('MSIE', 6)) {
